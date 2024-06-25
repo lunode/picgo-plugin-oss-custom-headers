@@ -1,0 +1,45 @@
+{
+  "name": "picgo-plugin-oss-custom-headers",
+  "version": "1.0.0",
+  "description": "A picgo plugin for custom oss put headers",
+  "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/lunode/picgo-plugin-oss-custom-headers",
+  "scripts": {
+    "test": "node ./test/index.js",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lunode/picgo-plugin-oss-custom-headers"
+  },
+  "keywords": [
+    "picgo",
+    "picgo-gui-plugin",
+    "picgo-plugin",
+    "picgo-cli-plugin",
+    "oss",
+    "custom",
+    "headers",
+    "header",
+    "aliyun",
+    "alibaba"
+  ],
+  "author": "lunode",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.25.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.0",
+    "picgo": "^1.5.6"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  }
+}
