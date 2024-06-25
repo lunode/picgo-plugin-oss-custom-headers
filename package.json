@@ -8,8 +8,7 @@
   },
   "homepage": "https://github.com/lunode/picgo-plugin-oss-custom-headers",
   "scripts": {
-    "test": "node ./test/index.js",
-    "publish": "npm publish"
+    "test": "node ./test/index.js"
   },
   "repository": {
     "type": "git",
