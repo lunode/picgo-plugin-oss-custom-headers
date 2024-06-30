@@ -18,7 +18,7 @@ jobs:
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-      - name: 发布 to Github NPM
-        run: npm publish --access public -registry=https://npm.pkg.github.com/
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN}}
+      # - name: 发布 to Github NPM
+      #   run: npm publish --access public -registry=https://npm.pkg.github.com/
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN}}
